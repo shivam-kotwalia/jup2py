@@ -64,13 +64,16 @@ Example -
 
 -o/ --output is totally optional, if you don't supply it will save the .py in the same directory save the .ipynb file
 
+
     jup2py -i tests\jup2py_sample.ipynb
+
 
 * Python Code
 
 
     import jup2py
     jup2py.jup2py("tests/jup2py_test.ipynb", "tests/test.py")
+
 
 Second argument is totally optional, if you don't supply it will save the .py in the same directory save the .ipynb file
 
