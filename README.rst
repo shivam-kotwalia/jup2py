@@ -1,4 +1,6 @@
-# jup2py - Make jupyter notebook production ready
+jup2py - Make jupyter notebook production ready
+======================
+
 Simplest way to convert jupyter notebook to production ready .py file
 
 Introduction
@@ -54,13 +56,19 @@ Example -
 
 * NOTE - Jup2Py requires you to save the Jupyter Notebook before using jup2py
 
-#####Command Line
+* Command Line
+
+
     jup2py -i <<JUPYTER_NOTEBOOK.ipynb>> -o <<PYTHON_FILENAME.py>>
+
+
 -o/ --output is totally optional, if you don't supply it will save the .py in the same directory save the .ipynb file
 
     jup2py -i tests\jup2py_sample.ipynb
 
-##### Python Code
+* Python Code
+
+
     import jup2py
     jup2py.jup2py("tests/jup2py_test.ipynb", "tests/test.py")
 
@@ -72,10 +80,10 @@ Conversion
 ==========
 
 Sample Jupyter Notebook -
-![Sample Jupyter Notebook](static/images/Jupyter_sample.png)
+![Sample Jupyter Notebook](docs/static/images/Jupyter_sample.png)
 
 Jup2Py converted to production ready .py file in no time -
-![Production ready python code](static/images/Py_sample.png)
+![Production ready python code](docs/static/images/Py_sample.png)
 
 
 Contact Us

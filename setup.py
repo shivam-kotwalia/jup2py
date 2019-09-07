@@ -19,7 +19,7 @@ setup(name='jup2py',
       install_requires=["nbconvert==5.5.0"],
       python_requires=">3.6,!=3.3.*",
       # packages=['jup2py'],
-      packages=find_packages(exclude=("tests", "docs")),
+      packages=find_packages(exclude=("tests", "docs", "static")),
       zip_safe=False,
       entry_points={
           'console_scripts': ['jup2py = jup2py:run_main'],
