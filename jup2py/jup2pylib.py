@@ -3,9 +3,9 @@ import nbconvert
 
 
 def jup2py(jup_filename, py_filename=None, save=True):
-    print(
-        "Please make sure you have saved your jupyter notebook before converting"
-    )
+    # print(
+    #     "Please make sure you have saved your jupyter notebook before converting"
+    # )
     if jup_filename is None or not jup_filename.endswith(".ipynb"):
         print("Please supply jupter filename with .ipynb extension")
     if py_filename is None:
@@ -29,11 +29,12 @@ def jup2py(jup_filename, py_filename=None, save=True):
             pass
         else:
             clean_code.append(line)
+    clean_code = "\n".join(clean_code)
     # Saving back the .py file
     if save:
         with open(py_filename, "w") as myfile:
             myfile.writelines(clean_code)
         print(f".py file {py_filename} saved!")
     else:
-        return "\n".join(clean_code)
+        return clean_code
 
