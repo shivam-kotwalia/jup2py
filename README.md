@@ -1,10 +1,9 @@
-jup2py - Make jupyter notebook production ready
-======================
+# jup2py - Make jupyter notebook production ready
+
 
 Simplest way to convert jupyter notebook to production ready .py file
 
-Introduction
-=============
+# Introduction
 As a data scientist or some one who loves quick proto-typing, you might be using Jupyter notebook or Ipython console to
 build your data pipelines or modelling iteration. Finally when it's time for deployment, the hard time starts,
 converting jupyter notebook to simple py file.
@@ -17,22 +16,22 @@ You have conventional ways to download it as a .py file from console with
 
 
 
-Installation
-=============
+## Installation
+
 To install Jup2Py from PyPI:
 
 
     $ pip install jup2py
 
 * Jup2Py supports Python 3.6 and above
-* Only requirement as of now is just `nbconvert`
+* Only requirement as of now is  `nbconvert`
 
 Jup2Py is still considered in "alpha" stage, and the released version may change
 often; therefore, the best way to keep up-to-date with the latest development
 is to clone this repository.
 
-Usage
-=====
+## Usage
+
 Jup2Py is made to remove complexity and make it super easy.
 
 Options:
@@ -81,26 +80,19 @@ Second argument is totally optional, if you don't supply it will save the .py in
 
 NOTE: - The output file is non-interactive in nature and will override if any previous same name file is found at that location.
 
-Conversion
-==========
+## Conversion
 
 Sample Jupyter Notebook -
 
-
-.. image:: docs/static/images/Jupyter_sample.png
-  :width: 400
-  :alt: Sample Jupyter Notebook
-
+![Sample Jupyter Notebook](docs/static/images/Jupyter_sample.png)
 
 Jup2Py converted to production ready .py file in no time -
 
+![Production ready python code](docs/static/images/Py_sample.png)
 
-.. image:: docs/static/images/Py_sample.png
-  :width: 400
-  :alt: Production ready python code
 
-Contact Us
-==========
+## Contact Us
+
 Jup2Py is a very small initiative I took, there are lot of things we can improve on this and make this more stronger.
 
 Please don't hesitate to report a bug through issues.

@@ -1,17 +1,22 @@
 from setuptools import setup, find_packages
+import codecs
+import jup2py
+
+with codecs.open("README.md", "r", "utf-8")as fh:
+    long_description = fh.read()
 
 setup(name='jup2py',
-      version='0.1',
+      version=jup2py.__version__,
       description='Convert jupyter notebook to .py file',
-      long_description=
-      'Simplest way to convert jupyter notebook to production ready .py file',
+      long_description_content_type="text/markdown",
+      long_description=long_description,
       url='https://github.com/shivam-kotwalia/jup2py',
+      # Refer to https://pypi.org/classifiers/
       classifiers=[
-          # 'Development Status :: 1 - Alpha',
+          "Programming Language :: Python :: 3.6",
+          "Development Status :: 1 - Planning",
           "Operating System :: OS Independent",
-          'License :: OSI Approved :: MIT License',
-          'Programming Language :: Python :: 3.6',
-          'Topic :: Jupyter Notebook :: Python Files',
+          "License :: OSI Approved :: MIT License",
       ],
       keywords='Convert jupyter notebook to .py',
       author='Shivam Kotwalia',
