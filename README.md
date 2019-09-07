@@ -1,6 +1,4 @@
 # jup2py - Make jupyter notebook production ready
-
-
 Simplest way to convert jupyter notebook to production ready .py file
 
 # Introduction
@@ -14,15 +12,13 @@ You have conventional ways to download it as a .py file from console with
 
 * or by downloading as .py file from Jupyter Notebooks
 
-
-
 ## Installation
 
 To install Jup2Py from PyPI:
 
-
-    $ pip install jup2py
-
+```
+$ pip install jup2py
+```
 * Jup2Py supports Python 3.6 and above
 * Only requirement as of now is  `nbconvert`
 
@@ -31,50 +27,44 @@ often; therefore, the best way to keep up-to-date with the latest development
 is to clone this repository.
 
 ## Usage
-
 Jup2Py is made to remove complexity and make it super easy.
 
 Options:
+````
+Jup2Py :- Simple way to convert your Jupyter Notebook to .py
+Please make sure that you have saved the Notebook before running Jup2Py
+usage: jup2py [-h] [-v] [-i INPUT] [-o OUTPUT]
 
-    Jup2Py :- Simple way to convert your Jupyter Notebook to .py
-    Please make sure that you have saved the Notebook before running Jup2Py
-    usage: jup2py [-h] [-v] [-i INPUT] [-o OUTPUT]
+Jup2Py :- Simple way to convert your Jupyter Notebook to .py
 
-    Jup2Py :- Simple way to convert your Jupyter Notebook to .py
+optional arguments:
+  -h, --help            show this help message and exit
+  -v, --version         Jup2Py Version
+  -i INPUT, --input INPUT
+                        Input Jupyter Notebook to be converted to .py file
+  -o OUTPUT, --output OUTPUT
+                        [Optional]: Output python file name and location
+````
 
-    optional arguments:
-      -h, --help            show this help message and exit
-      -v, --version         Jup2Py Version
-      -i INPUT, --input INPUT
-                            Input Jupyter Notebook to be converted to .py file
-      -o OUTPUT, --output OUTPUT
-                            [Optional]: Output python file name and location
+## Example 
 
-
-Example -
-
-* NOTE - Jup2Py requires you to save the Jupyter Notebook before using jup2py
+* **NOTE** - Jup2Py requires you to save the Jupyter Notebook before using jup2py
 
 * Command Line
-
-
-    jup2py -i <<JUPYTER_NOTEBOOK.ipynb>> -o <<PYTHON_FILENAME.py>>
-
+````
+jup2py -i <<JUPYTER_NOTEBOOK.ipynb>> -o <<PYTHON_FILENAME.py>>
+````
 
 -o/ --output is totally optional, if you don't supply it will save the .py in the same directory save the .ipynb file
-
-
-    jup2py -i tests\jup2py_sample.ipynb
-
+````
+jup2py -i tests\jup2py_sample.ipynb
+````
 
 * Python Code
-
-
-    import jup2py
-
-
-    jup2py.jup2py("tests/jup2py_test.ipynb", "tests/test.py")
-
+````
+import jup2py
+jup2py.jup2py("tests/jup2py_test.ipynb", "tests/test.py")
+````
 
 Second argument is totally optional, if you don't supply it will save the .py in the same directory save the .ipynb file
 
