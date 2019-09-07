@@ -80,11 +80,19 @@ Conversion
 ==========
 
 Sample Jupyter Notebook -
-![Sample Jupyter Notebook](docs/static/images/Jupyter_sample.png)
+
+
+.. image:: docs/static/images/Jupyter_sample.png
+  :width: 400
+  :alt: Sample Jupyter Notebook
+
 
 Jup2Py converted to production ready .py file in no time -
-![Production ready python code](docs/static/images/Py_sample.png)
 
+
+.. image:: docs/static/images/Py_sample.png
+  :width: 400
+  :alt: Production ready python code
 
 Contact Us
 ==========
