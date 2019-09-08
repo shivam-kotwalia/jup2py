@@ -1,16 +1,14 @@
 # jup2py - Make jupyter notebook production ready
 Simplest way to convert jupyter notebook to production ready .py file
 
-# Introduction
+## Introduction
+
 As a data scientist or some one who loves quick proto-typing, you might be using Jupyter notebook or Ipython console to
 build your data pipelines or modelling iteration. Finally when it's time for deployment, the hard time starts,
 converting jupyter notebook to simple py file.
 
-You have conventional ways to download it as a .py file from console with
-
-* `jupyter nbconvert --to script [YOUR_NOTEBOOK].ipynb`
-
-* or by downloading as .py file from Jupyter Notebooks
+You have conventional ways to download it as a .py file from console with or by downloading as .py file from Jupyter 
+Notebooks. But they never make it production ready .py file, somethings they mess with magic words or plots.
 
 ## Installation
 
