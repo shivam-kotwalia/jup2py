@@ -5,7 +5,7 @@ import argparse
 #*********GLOBAL CONFIG **************
 name = "jup2py"
 __description__ = "Jup2Py :- Simple way to convert your Jupyter Notebook to .py"
-__version__ = 0.1
+__version__ = "0.1.dev1"
 __all__ = [jup2py, __description__]
 # ************************************
 

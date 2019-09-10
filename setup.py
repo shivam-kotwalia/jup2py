@@ -6,7 +6,7 @@ with codecs.open("README.md", "r", "utf-8")as fh:
     long_description = fh.read()
 
 setup(name='jup2py',
-      version=jup2py.__version__,
+      version=str(jup2py.__version__),
       description='Convert jupyter notebook to .py file',
       long_description_content_type="text/markdown",
       long_description=long_description,

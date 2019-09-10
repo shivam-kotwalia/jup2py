@@ -72,11 +72,11 @@ NOTE: - The output file is non-interactive in nature and will override if any pr
 
 Sample Jupyter Notebook -
 
-![Sample Jupyter Notebook](docs/static/images/Jupyter_sample.png)
+![Sample Jupyter Notebook](https://raw.githubusercontent.com/shivam-kotwalia/jup2py/master/docs/static/images/Jupyter_sample.png)
 
 Jup2Py converted to production ready .py file in no time -
 
-![Production ready python code](docs/static/images/Py_sample.png)
+![Production ready python code](https://raw.githubusercontent.com/shivam-kotwalia/jup2py/master/docs/static/images/Py_sample.png)
 
 
 ## Contact Us
