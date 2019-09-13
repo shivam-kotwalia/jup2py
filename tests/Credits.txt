@@ -1,0 +1,4 @@
+These sample ipython notebooks have been a fantastic work of "Andrew Odewahn". 
+I foked his repo - https://github.com/odewahn/ipynb-examples to get all sheets. 
+
+A big thanks again Andrew. 
